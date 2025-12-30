@@ -1,7 +1,7 @@
 
 import './App.css'
 import Home from './components/home/home';
-import About from './components/about/about';
+import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
 import Services from './components/services/Services';

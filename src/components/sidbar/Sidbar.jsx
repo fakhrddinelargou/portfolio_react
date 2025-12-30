@@ -5,7 +5,27 @@ function sidbar() {
   return (
     <aside className="aside">
       <a href="#home" className="nav__logo">
-        <img src="./public/images/logo.png" alt="" className="logo"/>
+        <svg className="logo" width="30"  viewBox="0 0 180 200" xmlns="http://www.w3.org/2000/svg">
+
+
+  <rect x="0" y="0" width="32" height="200" rx="12" fill="#1E293B"/>
+  <polygon
+    points="40,20 170,20 150,60 40,60"
+    fill="#1E293B"
+  />
+
+  <polygon
+    points="40,85 135,85 115,120 40,120"
+    fill="#FF4D5A"
+  />
+
+  <polygon
+    points="40,145 170,145 150,185 40,185"
+    fill="#1E293B"
+  />
+
+</svg>
+
       </a>
 
       <nav className="nav">
@@ -25,9 +45,8 @@ function sidbar() {
             </li>
 
             <li className="nav__item">
-              <a href="#resume" className="nav__link"><GraduationCap /></a>
+              <a href="#Experience" className="nav__link"><GraduationCap /></a>
             </li>
-
             <li className="nav__item">
               <a href="#portfolio" className="nav__link"><Layers  /></a>
             </li>

@@ -121,14 +121,22 @@ img{
     padding-bottom: 2rem;
 }
 
+.section__title{
+    position: relative;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    font-weight: var(--font-bold);
+    margin-top: 3.75;
+}
+/* !!! */
 .section__title::before{
-    content: ' ';
-    background: url(); /* ! */
+    content: '';
+    background-image: url(./assets/dots-bg.svg); 
     height: 2.25rem;
     width: 2.25rem;
     position: absolute;
     left: -0.875rem;
-    top: -0.875rem;
+    bottom: 2.5rem;
 }
 
 .btn{
